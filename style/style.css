@@ -34,3 +34,23 @@ iframe#screen {
     width: 268px;
     height: 474px;
 }
+
+section#buttons img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.486);
+    box-sizing: border-box;
+}
+
+section#buttons {
+    text-align: center;
+    padding: 30px;
+}
+
+section#buttons img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.849);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+    transition: 0.1s;
+}
