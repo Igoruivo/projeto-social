@@ -26,3 +26,11 @@ section#phone {
     width: 311px;
     height: 627px;
 }
+
+iframe#screen {
+    position: relative;
+    top: 79px;
+    left: 21px;
+    width: 268px;
+    height: 474px;
+}
